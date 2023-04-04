@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B17313629D9B9210098F8BC /* HW_03_OTUS_ALNikitinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B17313529D9B9210098F8BC /* HW_03_OTUS_ALNikitinApp.swift */; };
+		7B17313A29D9B9220098F8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B17313929D9B9220098F8BC /* Assets.xcassets */; };
+		7B17313D29D9B9220098F8BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B17313C29D9B9220098F8BC /* Preview Assets.xcassets */; };
+		7BC3CA7A29DAAEFD007B7CCB /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA6929DAAEFD007B7CCB /* Configurator.swift */; };
+		7BC3CA7B29DAAEFD007B7CCB /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA6B29DAAEFD007B7CCB /* SecondScreen.swift */; };
+		7BC3CA7C29DAAEFD007B7CCB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA6C29DAAEFD007B7CCB /* RootView.swift */; };
+		7BC3CA7D29DAAEFD007B7CCB /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA6D29DAAEFD007B7CCB /* ThirdScreen.swift */; };
+		7BC3CA7E29DAAEFD007B7CCB /* Deals+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA6F29DAAEFD007B7CCB /* Deals+Identifiable.swift */; };
+		7BC3CA7F29DAAEFD007B7CCB /* Array+IsLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA7029DAAEFD007B7CCB /* Array+IsLast.swift */; };
+		7BC3CA8029DAAEFD007B7CCB /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA7129DAAEFD007B7CCB /* View+Extension.swift */; };
+		7BC3CA8129DAAEFD007B7CCB /* CSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA7329DAAEFD007B7CCB /* CSViewModel.swift */; };
+		7BC3CA8229DAAEFD007B7CCB /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA7529DAAEFD007B7CCB /* CardsView.swift */; };
+		7BC3CA8329DAAEFD007B7CCB /* InjectWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA7629DAAEFD007B7CCB /* InjectWrapper.swift */; };
+		7BC3CA8429DAAEFD007B7CCB /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA7729DAAEFD007B7CCB /* ServiceLocator.swift */; };
+		7BC3CA8529DAAEFD007B7CCB /* ProgressViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA7929DAAEFD007B7CCB /* ProgressViewModifier.swift */; };
+		7BC3CA8B29DAAFC8007B7CCB /* NavStack in Resources */ = {isa = PBXBuildFile; fileRef = 7BC3CA8829DAAFC8007B7CCB /* NavStack */; };
+		7BC3CA8C29DAAFC8007B7CCB /* Networking in Resources */ = {isa = PBXBuildFile; fileRef = 7BC3CA8929DAAFC8007B7CCB /* Networking */; };
+		7BC3CA8D29DAAFC8007B7CCB /* ALNUI in Resources */ = {isa = PBXBuildFile; fileRef = 7BC3CA8A29DAAFC8007B7CCB /* ALNUI */; };
+		7BC3CA9029DAB00B007B7CCB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7BC3CA8F29DAB00B007B7CCB /* Kingfisher */; };
+		7BC3CA9329DAB012007B7CCB /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 7BC3CA9229DAB012007B7CCB /* Networking */; };
+		7BC3CA9529DAB014007B7CCB /* NavStack in Frameworks */ = {isa = PBXBuildFile; productRef = 7BC3CA9429DAB014007B7CCB /* NavStack */; };
+		7BC3CA9729DAB017007B7CCB /* ALNUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7BC3CA9629DAB017007B7CCB /* ALNUI */; };
+		7BC3CA9929DABBEE007B7CCB /* Networking+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3CA9829DABBEE007B7CCB /* Networking+EXT.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B17313229D9B9210098F8BC /* HW-03-OTUS-ALNikitin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW-03-OTUS-ALNikitin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B17313529D9B9210098F8BC /* HW_03_OTUS_ALNikitinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_03_OTUS_ALNikitinApp.swift; sourceTree = "<group>"; };
+		7B17313929D9B9220098F8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B17313C29D9B9220098F8BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BC3CA6929DAAEFD007B7CCB /* Configurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
+		7BC3CA6B29DAAEFD007B7CCB /* SecondScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		7BC3CA6C29DAAEFD007B7CCB /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7BC3CA6D29DAAEFD007B7CCB /* ThirdScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
+		7BC3CA6F29DAAEFD007B7CCB /* Deals+Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Deals+Identifiable.swift"; sourceTree = "<group>"; };
+		7BC3CA7029DAAEFD007B7CCB /* Array+IsLast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+IsLast.swift"; sourceTree = "<group>"; };
+		7BC3CA7129DAAEFD007B7CCB /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		7BC3CA7329DAAEFD007B7CCB /* CSViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSViewModel.swift; sourceTree = "<group>"; };
+		7BC3CA7529DAAEFD007B7CCB /* CardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		7BC3CA7629DAAEFD007B7CCB /* InjectWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectWrapper.swift; sourceTree = "<group>"; };
+		7BC3CA7729DAAEFD007B7CCB /* ServiceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		7BC3CA7929DAAEFD007B7CCB /* ProgressViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewModifier.swift; sourceTree = "<group>"; };
+		7BC3CA8829DAAFC8007B7CCB /* NavStack */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NavStack; sourceTree = "<group>"; };
+		7BC3CA8929DAAFC8007B7CCB /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		7BC3CA8A29DAAFC8007B7CCB /* ALNUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ALNUI; sourceTree = "<group>"; };
+		7BC3CA9829DABBEE007B7CCB /* Networking+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Networking+EXT.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B17312F29D9B9210098F8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC3CA9329DAB012007B7CCB /* Networking in Frameworks */,
+				7BC3CA9529DAB014007B7CCB /* NavStack in Frameworks */,
+				7BC3CA9729DAB017007B7CCB /* ALNUI in Frameworks */,
+				7BC3CA9029DAB00B007B7CCB /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B17312929D9B9210098F8BC = {
+			isa = PBXGroup;
+			children = (
+				7BC3CA8729DAAFC8007B7CCB /* Modules */,
+				7B17313429D9B9210098F8BC /* HW-03-OTUS-ALNikitin */,
+				7B17313329D9B9210098F8BC /* Products */,
+				7BC3CA9129DAB012007B7CCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B17313329D9B9210098F8BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B17313229D9B9210098F8BC /* HW-03-OTUS-ALNikitin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B17313429D9B9210098F8BC /* HW-03-OTUS-ALNikitin */ = {
+			isa = PBXGroup;
+			children = (
+				7B17313529D9B9210098F8BC /* HW_03_OTUS_ALNikitinApp.swift */,
+				7BC3CA8629DAAF3A007B7CCB /* ServiceLocator */,
+				7BC3CA6E29DAAEFD007B7CCB /* Extensions */,
+				7BC3CA6A29DAAEFD007B7CCB /* Screens */,
+				7BC3CA7229DAAEFD007B7CCB /* ViewModels */,
+				7BC3CA7829DAAEFD007B7CCB /* ViewModifier */,
+				7BC3CA7429DAAEFD007B7CCB /* Views */,
+				7B17313929D9B9220098F8BC /* Assets.xcassets */,
+				7B17313B29D9B9220098F8BC /* Preview Content */,
+			);
+			path = "HW-03-OTUS-ALNikitin";
+			sourceTree = "<group>";
+		};
+		7B17313B29D9B9220098F8BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B17313C29D9B9220098F8BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BC3CA6A29DAAEFD007B7CCB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7BC3CA6C29DAAEFD007B7CCB /* RootView.swift */,
+				7BC3CA6B29DAAEFD007B7CCB /* SecondScreen.swift */,
+				7BC3CA6D29DAAEFD007B7CCB /* ThirdScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7BC3CA6E29DAAEFD007B7CCB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7BC3CA6F29DAAEFD007B7CCB /* Deals+Identifiable.swift */,
+				7BC3CA7029DAAEFD007B7CCB /* Array+IsLast.swift */,
+				7BC3CA7129DAAEFD007B7CCB /* View+Extension.swift */,
+				7BC3CA9829DABBEE007B7CCB /* Networking+EXT.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7BC3CA7229DAAEFD007B7CCB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7BC3CA7329DAAEFD007B7CCB /* CSViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7BC3CA7429DAAEFD007B7CCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BC3CA7529DAAEFD007B7CCB /* CardsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BC3CA7829DAAEFD007B7CCB /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				7BC3CA7929DAAEFD007B7CCB /* ProgressViewModifier.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		7BC3CA8629DAAF3A007B7CCB /* ServiceLocator */ = {
+			isa = PBXGroup;
+			children = (
+				7BC3CA6929DAAEFD007B7CCB /* Configurator.swift */,
+				7BC3CA7729DAAEFD007B7CCB /* ServiceLocator.swift */,
+				7BC3CA7629DAAEFD007B7CCB /* InjectWrapper.swift */,
+			);
+			path = ServiceLocator;
+			sourceTree = "<group>";
+		};
+		7BC3CA8729DAAFC8007B7CCB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7BC3CA8829DAAFC8007B7CCB /* NavStack */,
+				7BC3CA8929DAAFC8007B7CCB /* Networking */,
+				7BC3CA8A29DAAFC8007B7CCB /* ALNUI */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7BC3CA9129DAB012007B7CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B17313129D9B9210098F8BC /* HW-03-OTUS-ALNikitin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B17314029D9B9220098F8BC /* Build configuration list for PBXNativeTarget "HW-03-OTUS-ALNikitin" */;
+			buildPhases = (
+				7B17312E29D9B9210098F8BC /* Sources */,
+				7B17312F29D9B9210098F8BC /* Frameworks */,
+				7B17313029D9B9210098F8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW-03-OTUS-ALNikitin";
+			packageProductDependencies = (
+				7BC3CA8F29DAB00B007B7CCB /* Kingfisher */,
+				7BC3CA9229DAB012007B7CCB /* Networking */,
+				7BC3CA9429DAB014007B7CCB /* NavStack */,
+				7BC3CA9629DAB017007B7CCB /* ALNUI */,
+			);
+			productName = "HW-03-OTUS-ALNikitin";
+			productReference = 7B17313229D9B9210098F8BC /* HW-03-OTUS-ALNikitin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B17312A29D9B9210098F8BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7B17313129D9B9210098F8BC = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 7B17312D29D9B9210098F8BC /* Build configuration list for PBXProject "HW-03-OTUS-ALNikitin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B17312929D9B9210098F8BC;
+			packageReferences = (
+				7BC3CA8E29DAB00B007B7CCB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 7B17313329D9B9210098F8BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B17313129D9B9210098F8BC /* HW-03-OTUS-ALNikitin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B17313029D9B9210098F8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B17313D29D9B9220098F8BC /* Preview Assets.xcassets in Resources */,
+				7BC3CA8B29DAAFC8007B7CCB /* NavStack in Resources */,
+				7BC3CA8C29DAAFC8007B7CCB /* Networking in Resources */,
+				7B17313A29D9B9220098F8BC /* Assets.xcassets in Resources */,
+				7BC3CA8D29DAAFC8007B7CCB /* ALNUI in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B17312E29D9B9210098F8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC3CA8129DAAEFD007B7CCB /* CSViewModel.swift in Sources */,
+				7BC3CA7C29DAAEFD007B7CCB /* RootView.swift in Sources */,
+				7BC3CA7E29DAAEFD007B7CCB /* Deals+Identifiable.swift in Sources */,
+				7BC3CA7F29DAAEFD007B7CCB /* Array+IsLast.swift in Sources */,
+				7BC3CA8529DAAEFD007B7CCB /* ProgressViewModifier.swift in Sources */,
+				7BC3CA8229DAAEFD007B7CCB /* CardsView.swift in Sources */,
+				7BC3CA7B29DAAEFD007B7CCB /* SecondScreen.swift in Sources */,
+				7BC3CA8429DAAEFD007B7CCB /* ServiceLocator.swift in Sources */,
+				7BC3CA7D29DAAEFD007B7CCB /* ThirdScreen.swift in Sources */,
+				7B17313629D9B9210098F8BC /* HW_03_OTUS_ALNikitinApp.swift in Sources */,
+				7BC3CA8329DAAEFD007B7CCB /* InjectWrapper.swift in Sources */,
+				7BC3CA7A29DAAEFD007B7CCB /* Configurator.swift in Sources */,
+				7BC3CA8029DAAEFD007B7CCB /* View+Extension.swift in Sources */,
+				7BC3CA9929DABBEE007B7CCB /* Networking+EXT.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B17313E29D9B9220098F8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B17313F29D9B9220098F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B17314129D9B9220098F8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HW-03-OTUS-ALNikitin/Preview Content\"";
+				DEVELOPMENT_TEAM = N73PD4YDBG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "al.nikitin.HW-03-OTUS-ALNikitin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B17314229D9B9220098F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HW-03-OTUS-ALNikitin/Preview Content\"";
+				DEVELOPMENT_TEAM = N73PD4YDBG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "al.nikitin.HW-03-OTUS-ALNikitin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B17312D29D9B9210098F8BC /* Build configuration list for PBXProject "HW-03-OTUS-ALNikitin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B17313E29D9B9220098F8BC /* Debug */,
+				7B17313F29D9B9220098F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B17314029D9B9220098F8BC /* Build configuration list for PBXNativeTarget "HW-03-OTUS-ALNikitin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B17314129D9B9220098F8BC /* Debug */,
+				7B17314229D9B9220098F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7BC3CA8E29DAB00B007B7CCB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7BC3CA8F29DAB00B007B7CCB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BC3CA8E29DAB00B007B7CCB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		7BC3CA9229DAB012007B7CCB /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		7BC3CA9429DAB014007B7CCB /* NavStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NavStack;
+		};
+		7BC3CA9629DAB017007B7CCB /* ALNUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ALNUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7B17312A29D9B9210098F8BC /* Project object */;
+}
